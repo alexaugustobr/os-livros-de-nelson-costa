@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nelson Costa</title>
+</head>
+<style>
+
+html {
+    background-color: whitesmoke;
+    font-family: Roboto;
+}
+
+body {
+    margin: 0px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-header {
+    
+}
+
+.page-header > h1 {
+    margin: 1em;
+}
+
+.books-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.books-list > article {
+    margin: 1em;
+}
+
+.author-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.author-section > div {
+    margin: 1em;
+}
+
+.books-header {
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 2rem;
+}
+
+.books-header > h1{
+    margin: 0px;
+    font-size: 1em;
+}
+.books-header > h2{
+    margin: 0px;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .author-section {
+        flex-wrap: wrap;
+        justify-content: center
+    }
+    .page-header > h1 {
+        text-align: center;
+    }
+    .books-list {
+        justify-content: center
+    }
+}
+
+</style>
+<body>
+    <header class="page-header">
+        <h1>As obras de Nelson Costa</h1>
+    </header>
+    <section class="author-section">
+        <div class="author-image">
+            <img decoding="async" src="https://demo.rswpthemes.com/author-portfolio-pro-v2/wp-content/uploads/sites/15/2022/05/person-image.png" alt="">
+        </div>
+        <div class="author-description">
+            <h1>Sobre o autor</h1>
+            <p>
+                Colleen Hoover is the #1 New York Times and International bestselling author of multiple novels and novellas. 
+                She lives in Texas with her husband and their three boys. She is the founder of The Bookworm Box, a non-profit book 
+                subscription service and bookstore in Sulphur Springs, Texas.
+                To contact Colleen and her team (Her teams name is Stephanie), please email hooverink@outlook.com
+            </p>
+        </div>
+    </section>
+    <section class="book-section">
+        <header class="books-header">
+            <h1>Livros</h1>
+        </header>
+        <div class="books-list">
+            <article>
+                <a>
+                    <img decoding="async" width="293" height="465" src="https://demo.rswpthemes.com/author-portfolio-pro-v2/wp-content/uploads/sites/15/2022/04/book-20.jpg" class="attachment-full size-full wp-post-image" alt="">
+                </a>
+                <h2>Without Merit: A Novel</h2>
+                <p></p>
+            </article>
+            <article>
+                <a>
+                    <img decoding="async" width="293" height="465" src="https://demo.rswpthemes.com/author-portfolio-pro-v2/wp-content/uploads/sites/15/2022/04/book-19.jpg" class="attachment-full size-full wp-post-image" alt="">
+                </a>
+                <h2>November 9: A Novel</h2>
+                <p></p>
+            </article>
+            <article>
+                <a>
+                    <img decoding="async" fetchpriority="high" width="293" height="465" src="https://demo.rswpthemes.com/author-portfolio-pro-v2/wp-content/uploads/sites/15/2022/04/book-18.jpg" class="attachment-full size-full wp-post-image" alt="">
+                </a>
+                <h2>It Starts with Us: A Novel</h2>
+                <p></p>
+            </article>
+            <article>
+                <a>
+                    <img decoding="async" fetchpriority="high" width="293" height="465" src="https://demo.rswpthemes.com/author-portfolio-pro-v2/wp-content/uploads/sites/15/2022/04/book-18.jpg" class="attachment-full size-full wp-post-image" alt="">
+                </a>
+                <h2>It Starts with Us: A Novel</h2>
+                <p></p>
+            </article>
+        </div>
+    </section>
+    <footer></footer>
+</body>
+</html>
